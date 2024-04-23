@@ -1,0 +1,65 @@
+.Signup-form {
+    border: 1px solid var(--border-color);
+    width: 23.5rem;
+    height: max-content;
+    box-shadow: 1px 2px 1px 1px var(--boxShadow-color);
+    border-radius: 4px;
+    text-align: center;
+}
+
+.Signup-email-label {
+    float: left;
+    padding-left: 2.7rem;
+}
+
+#email {
+    width: 80%;
+    height: 1.9rem;
+    border-radius: .2rem;
+    border: 1px solid var(--border-color);
+}
+#firstName{
+    width: 80%;
+    height: 1.9rem;
+    border-radius: .2rem;
+    border: 1px solid var(--border-color);
+}
+#lastName{
+    width: 80%;
+    height: 1.9rem;
+    border-radius: .2rem;
+    border: 1px solid var(--border-color);
+}
+#password{
+    width: 80%;
+    height: 1.9rem;
+    border-radius: .2rem;
+    border: 1px solid var(--border-color);
+}
+#confirmpass{
+    width: 80%;
+    height: 1.9rem;
+    border-radius: .2rem;
+    border: 1px solid var(--border-color);
+}
+
+.Signup-checkbox {
+    margin-left: 2.7rem;
+}
+
+.Signup-text {
+    color: var(--primary-color);
+}
+
+.Signup-btn {
+    width: 79%;
+    height: 1.9rem;
+    color: var(--offwhite);
+    background-color: var(--primary-color);
+    border: 1px solid var(--primary-color-hover);
+    cursor: pointer;
+}
+
+.Signup-btn:hover {
+    background-color: var(--primary-color-hover);
+}
